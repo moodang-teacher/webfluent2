@@ -250,28 +250,3 @@ main > section:last-child {
   font-weight: 700;
 }
 
-/* footer */
-.footer {
-  /* bg#333+c#fff+p5.2r-0 */
-  background: #333;
-  color: var(--white60);
-  padding: 5.2rem 0;
-}
-
-.foot-con {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse; /* fxdrr */
-}
-
-.foot-text {
-  /* fw700+fz1.4r+lh1.5 */
-  font-weight: 700;
-  font-size: 1.4rem;
-  line-height: 1.5;
-}
-
-.foot-text p + p {
-  /* mt.8r */
-  margin-top: 0.8rem;
-}
